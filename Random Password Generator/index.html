@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Password Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="body">
+    <div class="flex justify-end m-4">
+        <input type="checkbox" name="" id="toggle" class="hidden">
+        <label for="toggle">
+            <div class="dark-mode-container">
+                <div class="dark-mode-shape"></div>
+            </div>
+        </label>
+    </div>
+    <main class="main">
+        <div class="card">
+            <h1 class="card-heading"><span class="heading-span">Generate a</span> random password</h1>
+            <p class="card-text">Never use an insecure password again.</p>
+            <button class="card-btn" onclick="passwordGenerator()"><img src="icon1.svg" alt="" class="w-4">Generate Passwords</button>
+            <hr class="card-hr">
+            <div class="card-password">
+                <div class="card__password__text" id="password1"><img src="Icon.svg" alt="" class="card__icon"></div>
+                <div class="card__password__text" id="password2"><img src="Icon.svg" alt="" class="card__icon"></div>
+            </div>
+            <div class="card-password">
+                <div class="card__password__text" id="password3"><img src="Icon.svg" alt="" class="card__icon"></div>
+                <div class="card__password__text" id="password4"><img src="Icon.svg" alt="" class="card__icon"></div>
+            </div>
+        </div>
+    </main>
+</body>
+<script src="script.js"></script>
+</html>
