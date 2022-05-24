@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invoice Generator</title>
+    <link rel="stylesheet" href="output.css">
+</head>
+<body class="body">
+    <!--CARD-->
+    <section class="card">
+        <!--CARD HEADER border border-white-->
+        <header class="card-header ">
+            <h1 class="card-heading">Invoice Generator</h1>
+            <p class="">Thanks for choosing GoodCorp, LLC!</p>
+        </header>
+           <!-- CARD BODY -->
+        <div class="card-body">
+            <!--CARD BADGES-->
+            <div class="badge-container">
+                <span class="card-badge" id="car-wash"> Wash Car: $10
+                </span>
+                <span class="card-badge" id="mow-lawn">Mow Lawn: $20
+                </span>
+                <span class="card-badge" id="pull-weeds">Pull Weeds: $30
+                </span>
+            </div>
+            <!-- PRICING -->
+            <div class="pricing-container" id="pricing">
+                <p class="task-txt">Task</p>
+                <p class="total">Total</p>
+                <div class="items-price" id="items-price-container">
+                    
+                </div>
+                
+                <hr class="hr ">
+                <p class="note text-sm">Notes</p>
+                <p class="total-amount">Total Amount</p>
+                <p class="note-info ">We accept cash, credit card, or PayPal</p>
+                <p class="total-amount-money" id="total-amount">$0</p>
+                <button class="send-button " id="send-btn"><img src="Icon.svg" alt="" class="mr-2">Send Invoice</button>
+            </div>
+
+
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
