@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <h1>Blog Space</h1>
+        <form action="sumbit" id="submit">
+                <div class="blog-input">
+                <label for="title-input" class="title-label"><p>Title:</p>
+                    <input type="text" id="title-input" maxlength="10">
+                </label>
+                <label for="blog-text" class="text-label"><p>Body:</p>
+                    <textarea name="blog-text" id="blog-text" cols="21" rows="3" maxlength="400"></textarea> 
+                </label>
+                <button type="submit">Post</button>
+            </div>
+            </form>
+        <div id="blog-list" class="blogs-placeholder"></div>
+        <script src="script.js"></script>
+    </body>
+</html>
